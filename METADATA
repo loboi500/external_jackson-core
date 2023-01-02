@@ -1,22 +1,3 @@
-name: "jackson-core"
-description:
-    "This project contains core low-level incremental ("streaming") parser and "
-    "generator abstractions used by Jackson Data Processor. It also includes "
-    "the default implementation of handler types (parser, generator) that "
-    "handle JSON format. The core abstractions are not JSON specific, although "
-    "naming does contain 'JSON' in many places, due to historical reasons. Only "
-    "packages that specifically contain word 'json' are JSON-specific."
-
-third_party {
-  url {
-    type: HOMEPAGE
-    value: "https://github.com/FasterXML/jackson-core"
-  }
-  url {
-    type: GIT
-    value: "https://github.com/FasterXML/jackson-core.git"
-  }
-  version: "2.12"
-  last_upgrade_date { year: 2020 month: 8 day: 5 }
-  license_type: NOTICE
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:57546120b1cb807dae432e3912b805f86b040ac3276bc84f49eac2b483998180
+size 785
